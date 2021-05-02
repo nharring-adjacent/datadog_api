@@ -1,0 +1,16 @@
+# LogsUrlParser
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**is_enabled** | Option<**bool**> | Whether or not the processor is enabled. | [optional][default to false]
+**name** | Option<**String**> | Name of the processor. | [optional]
+**normalize_ending_slashes** | Option<**bool**> | Normalize the ending slashes or not. | [optional][default to false]
+**sources** | **Vec<String>** | Array of source attributes. | [default to ["http.url"]]
+**target** | **String** | Name of the parent attribute that contains all the extracted details from the `sources`. | [default to http.url_details]
+**_type** | [**crate::models::LogsUrlParserType**](LogsURLParserType.md) |  | 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
